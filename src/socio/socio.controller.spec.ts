@@ -12,6 +12,7 @@ describe('SocioController', () => {
     username: 'usuario123',
     email: 'usuario@example.com',
     birthDate: new Date('1990-01-01'),
+    clubs: [],
   };
 
   beforeEach(async () => {
